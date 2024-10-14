@@ -7,7 +7,7 @@ class PizzaTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: const Center(
-        child: Text('Pizza'),
+        child: Text('Little Cesar'),
       ),
     );
   }

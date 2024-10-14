@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
           //TabBA
           TabBar(tabs: myTabs),
           //tab bar view
-          const Expanded(
+          Expanded( //[] quitar const
             child: TabBarView(children: [
               //donut
               DonutTab(),

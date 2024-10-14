@@ -7,7 +7,7 @@ class SmoothieTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: const Center(
-        child: Text('Smoothie'),
+        child: Text('Starbucks'),
       ),
     );
   }

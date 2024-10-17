@@ -1,5 +1,7 @@
+
 import 'package:flutter/material.dart';
-import 'package:reto1_donut_app_emiliano_euan/pages/home_page.dart';
+
+import 'pages/home_page.dart';
 
 void main() {
   runApp(const MainApp());
@@ -12,7 +14,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: const HomePage(),
-      theme: ThemeData(tabBarTheme: const TabBarTheme(indicatorColor: Colors.blue)
+      debugShowCheckedModeBanner: false, // Quitar el banner de "Debug"
+      theme: ThemeData(
+        tabBarTheme: const TabBarTheme(
+          indicatorColor: Colors.pink,
+        ),
       ),
     );
   }

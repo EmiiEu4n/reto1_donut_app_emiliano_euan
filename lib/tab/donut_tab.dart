@@ -31,5 +31,6 @@ class DonutTab extends StatelessWidget {
             imageName: donutsOnSale[index][3],
           );
         });
-  } // Crear el archivo donut_tile en /utils [6]
+  }
+  // Crear el archivo donut_tile en /utils [6]
 }
